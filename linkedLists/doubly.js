@@ -1,31 +1,33 @@
 class Node {
-    constructor(value) {
-      this.value = value;
-      this.next = null;
-      this.prev = null;
-    }
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+    this.prev = null;
   }
-  class MyDoublyLinkedList {
-    constructor(value) {
-      this.head = {
-        value: value,
-        next: null,
-        prev: null,
-      };
-      this.tail = this.head;
+}
 
-      this.length = 1;
-    }
-    append(value) {
-      const newNode = new Node(value);
-      newNode.prev = this.tail;
-      this.tail.next = newNode;
-      this.tail = newNode;
+class MyDoublyLinkedList {
+  constructor(value) {
+    this.head = {
+      value: value,
+      next: null,
+      prev: null,
+    };
+    this.tail = this.head;
 
-      this.length++;
-
-      return this;
-    }
+    this.length = 1;
   }
 
-let myDoublyLinkedList = new MyDoublyLinkedList(1);
+  append(value) {
+    const newNode = new Node(value);
+    newNode.prev = this.tail;
+    this.tail.next = newNode;
+    this.tail = newNode;
+
+    this.length++;
+
+    return this;
+  }
+}
+
+export default MyDoublyLinkedList;

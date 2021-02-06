@@ -65,4 +65,4 @@ class MySinglyLinkedList {
   }
 }
 
-let myLinkedList = new MySinglyLinkedList(1);
+export default MySinglyLinkedList;

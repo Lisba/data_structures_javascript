@@ -34,4 +34,4 @@ class HashTable {
     }
 }
 
-const myHashTable = new HashTable(50);
+export default HashTable;
