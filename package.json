@@ -1,0 +1,15 @@
+{
+  "name": "data_structures_javascript",
+  "version": "1.0.0",
+  "description": "Data Structures with Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "data structures",
+    "javascript"
+  ],
+  "author": "Lisbaldy Ojeda",
+  "license": "MIT"
+}
