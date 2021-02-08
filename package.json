@@ -11,5 +11,10 @@
     "javascript"
   ],
   "author": "Lisbaldy Ojeda",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-plugin-module-resolver": "^1.2.0",
+    "prettier": "2.2.1"
+  }
 }
