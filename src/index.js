@@ -4,3 +4,4 @@ export * from './linkedLists';
 export { default as Stack } from './stacks';
 export { default as Queue } from './queues';
 export { default as BinarySearchTree } from './trees';
+export { default as UndirectedGraph } from './graphs/UndirectedGraph';

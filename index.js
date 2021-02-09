@@ -6,6 +6,7 @@ import {
   Stack,
   Queue,
   BinarySearchTree,
+  UndirectedGraph,
 } from '@src';
 
 const myArray = new MyArray();
@@ -15,3 +16,4 @@ const myDoublyLinkedList = new MyDoublyLinkedList(1);
 const myStack = new Stack();
 const myQueue = new Queue();
 const myTree = new BinarySearchTree();
+const myGraph = new UndirectedGraph();
