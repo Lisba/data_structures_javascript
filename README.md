@@ -40,4 +40,4 @@ npm: `npm install data-structures-js`
 
 ## License
 
-The MIT License.
+The MIT License. Full License [here](https://github.com/Lisba/data_structures_javascript/blob/master/LICENSE)
