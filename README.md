@@ -1,6 +1,14 @@
-### Common data structures implementation in Javascript
+# @lisba/data-structures-js
+
+![npm](https://img.shields.io/npm/v/@lisba/data-structures-js)
+![npm](https://img.shields.io/npm/dy/@lisba/data-structures-js)
+![NPM](https://img.shields.io/npm/l/@lisba/data-structures-js)
+
+#### Common data structures implementation in Javascript.
 
 # Contents
+
+- [@lisba/data-structures-js](#lisbadata-structures-js) - [Common data structures implementation in Javascript.](#common-data-structures-implementation-in-javascript)
 - [Contents](#contents)
   - [Installation](#installation)
   - [Usage](#usage)
