@@ -6,13 +6,10 @@
 
 #### Common data structures implementation in Javascript.
 
-# Contents
-
-- [@lisba/data-structures-js](#lisbadata-structures-js) - [Common data structures implementation in Javascript.](#common-data-structures-implementation-in-javascript)
-- [Contents](#contents)
+- #### [Contents](#contents)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Collaborators](#collaborators)
+  - [Collaborate](#collaborate)
   - [License](#license)
 
 ## Installation
@@ -43,12 +40,14 @@ const myTree = new BinarySearchTree();
 const myGraph = new UndirectedGraph();
 ```
 
-## Collaborators
+## Collaborate
+
+In order to collaborate with the proyect you need to:
 
 1. Fork the repo.
 2. Clone the repo to work locally with `git clone repo-url`.
 3. Install dependencies with `yarn install`.
-4. Develop suggested changes in a new branch.
+4. Develop suggested changes in a new branch (make sure you are using the prettier config, you can run `yarn format` or install the prettier extension if you are using vsc editor to format on save).
 5. Push your changes to your repo `git push remote-repo branch-name`.
 6. Make the pull request.
 
