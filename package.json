@@ -6,12 +6,13 @@
   "author": "Lisbaldy Ojeda",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
+    "test": "jest --config jest.config.js",
     "lint": "eslint ./",
     "format": "prettier ./ --write .",
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
     "eslint": "^7.19.0",
     "eslint-plugin-module-resolver": "^1.4.0",
     "husky": "^7.0.4",
