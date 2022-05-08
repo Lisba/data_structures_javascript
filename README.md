@@ -17,9 +17,9 @@
 
 ## Installation
 
-yarn: `yarn add data-structures-js`
+yarn: `yarn add @lisba/data-structures-js`
 
-npm: `npm install data-structures-js`
+npm: `npm install @lisba/data-structures-js`
 
 ## Usage
 
