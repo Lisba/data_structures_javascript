@@ -1,20 +1,29 @@
 {
-  "name": "data_structures_javascript",
-  "version": "1.0.0",
-  "description": "Data Structures with Javascript",
+  "name": "data-structures-js",
+  "version": "0.1.0",
+  "description": "Common data structures implementation in Javascript.",
   "main": "index.js",
+  "author": "Lisbaldy Ojeda",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "data structures",
-    "javascript"
-  ],
-  "author": "Lisbaldy Ojeda",
-  "license": "MIT",
   "devDependencies": {
     "eslint": "^7.19.0",
     "eslint-plugin-module-resolver": "^1.2.0",
     "prettier": "2.2.1"
-  }
+  },
+  "keywords": [
+    "data structures",
+    "javascript",
+    "stacks",
+    "queues",
+    "graphs",
+    "trees",
+    "hash tables",
+    "map",
+    "linked lists",
+    "doubly Linked List",
+    "singly Linked List"
+  ]
 }
