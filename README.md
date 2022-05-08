@@ -23,19 +23,25 @@ npm: `npm install @lisba/data-structures-js`
 
 ## Usage
 
-`const myStack = new Stack();`
+```js
+import {
+  Stack,
+  Queue,
+  HashTable,
+  MySinglyLinkedList,
+  MyDoublyLinkedList,
+  BinarySearchTree,
+  UndirectedGraph,
+} from '@lisba/data-structures-js';
 
-`const myQueue = new Queue();`
-
-`const myHashTable = new HashTable(50);`
-
-`const mySinglyLinkedList = new MySinglyLinkedList(1);`
-
-`const myDoublyLinkedList = new MyDoublyLinkedList(1);`
-
-`const myTree = new BinarySearchTree();`
-
-`const myGraph = new UndirectedGraph();`
+const myStack = new Stack();
+const myQueue = new Queue();
+const myHashTable = new HashTable(50);
+const mySinglyLinkedList = new MySinglyLinkedList(1);
+const myDoublyLinkedList = new MyDoublyLinkedList(1);
+const myTree = new BinarySearchTree();
+const myGraph = new UndirectedGraph();
+```
 
 ## Collaborators
 
