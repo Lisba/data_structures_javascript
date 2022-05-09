@@ -1,12 +1,8 @@
 
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# expo
-.expo/
-
 # dependencies
 node_modules
-package-lock.json
 
 # misc
 .env.local
@@ -20,22 +16,6 @@ yarn-error.log*
 *.DS_Store
 Gemfile.lock
 
-#ios
-/ios/build
-/ios/Pods
-/ios/nwReactNativeApp.xcworkspace/**
-/ios/nwReactNativeApp.xcodeproj/project.pbxproj
-
-#android
-/android/build
-/android/app/build
-/android/.gradle
-/android/app/app.iml
-/android/settings.gradle
-/android/local.properties
-/android/.idea
-
-
 /coverage
 
 #packages
@@ -44,11 +24,3 @@ Gemfile.lock
 
 /.vscode/*
 /build
-android-release.bundle
-android-release.bundle.map
-ios-release.bundle
-ios-release.bundle.map
-
-# CocoaPods
-/ios/Pods/
-.scannerwork

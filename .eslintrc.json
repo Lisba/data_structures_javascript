@@ -16,22 +16,5 @@
     "semi": ["error", "always"],
     "no-unused-vars": "error",
     "no-invalid-regexp": "error"
-  },
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "paths": ["src"],
-        "alias": {
-          "@src": "./src",
-          "@arrays": "./src/arrays",
-          "@linkedLists": "./src/linkedLists",
-          "@hashTables": "./src/hashTables",
-          "@stacks": "./src/stacks",
-          "@queues": "./src/queues",
-          "@undirectedGraph": "./src/graphs/UndirectedGraph",
-          "@trees": "./src/trees"
-        }
-      }
-    }
   }
 }
