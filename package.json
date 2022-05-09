@@ -1,13 +1,13 @@
 {
   "name": "@lisba/data-structures-js",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Common data structures implementation in Javascript.",
   "main": "index.js",
   "type": "module",
   "author": "Lisbaldy Ojeda",
   "license": "MIT",
   "scripts": {
-    "test": "jest --config jest.config.js",
+    "test": "jest --config jest.config.cjs",
     "lint": "eslint ./",
     "format": "prettier ./ --write .",
     "prepare": "husky install"
