@@ -1,7 +1,8 @@
 # @lisba/data-structures-js
 
 ![npm](https://img.shields.io/npm/v/@lisba/data-structures-js)
-![npm](https://img.shields.io/npm/dy/@lisba/data-structures-js)
+![GitHub last commit](https://img.shields.io/github/last-commit/Lisba/data_structures_javascript)
+![npm](https://img.shields.io/npm/dm/@lisba/data-structures-js)
 ![NPM](https://img.shields.io/npm/l/@lisba/data-structures-js)
 
 #### Common data structures implementation in Javascript.
