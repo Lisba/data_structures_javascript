@@ -6,8 +6,10 @@
   "author": "Lisbaldy Ojeda",
   "license": "MIT",
   "scripts": {
-    "build": "babel src -d build",
-    "start": "node build/index.js",
+    "start": "babel-node src/index.js",
+    "start:builded": "node build/index.js",
+    "build": "babel src -d build --ignore \"./src/**/*.test.js\"",
+    "refresh": "rm -rf build && yarn build",
     "test": "jest --config jest.config.js",
     "lint": "eslint ./",
     "format": "prettier ./ --write .",
